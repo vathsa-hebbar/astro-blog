@@ -1,0 +1,29 @@
+---
+import NavLink from './NavLink.astro';
+---
+<header class="bg-blue-600 py-2 common-header">
+  <div
+    class="flex justify-center content-between space-x-2 md:space-x-4 lg:space-x-4 lg:text-2xl text-white"
+  >
+    <div>
+      <NavLink href="/blog" title="Blog Posts" active="text-blue-200">
+        Blog
+      </NavLink>
+    </div>
+    <!-- <div>
+      <NavLink href="/live" title="Live Streams" active="text-blue-200">
+       Live Streams
+      </NavLink>
+    </div> -->
+    <!-- <div>
+      <NavLink href="/talks" title="Talks and Podcast appearances" active="text-blue-200">
+        Talks
+      </NavLink>
+    </div> -->
+    <div>
+      <NavLink href="/about" title="About Me" active="text-blue-200">
+        About
+      </NavLink>
+    </div>
+  </div>
+</header>

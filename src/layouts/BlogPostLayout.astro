@@ -1,0 +1,63 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import "../styles/global.css";
+import "../themes/prism-atom-dark.css";
+import type { CollectionEntry } from 'astro:content';
+type Props = CollectionEntry<'blog'>['data'];
+const { content } = Astro.props;
+const parsedPublishedDate = new Date(content.publishedDate);
+
+const formattedDate = parsedPublishedDate.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<html lang="en">
+  <head>
+    <title>{content.title}</title>
+    <base href="/" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Brandon Roberts - Web Developer, Angular Team Member, NgRx Core Team, Open Source Project Maintainer"
+    />
+    <meta
+      name="keywords"
+      content="Brandon Roberts, Blog, Web Development, Angular, HTML, CSS, JavaScript, TypeScript"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <Header />
+
+      <div class="flex flex-grow justify-center min-h-screen">
+        <article class="w-screen max-w-4xl p-8">
+          <h2 class="text-gray-600 text-2xl">{content.title}</h2>
+
+          <span class="font-light text-sm">
+            {formattedDate}
+          </span>
+
+          <slot/>
+        </article>  
+      </div>
+      
+      <Footer />
+    </main>
+  </body>
+</html>
