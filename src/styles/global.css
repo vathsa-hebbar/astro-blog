@@ -33,8 +33,17 @@ article > h2 {
   position: sticky;
   top: 0;
   z-index: auto;
-  background-color: #0745e963; /* Semi-transparent white */
+  background-color: #ffffff63; /* Semi-transparent white */
   backdrop-filter: blur(10px); /* Adjust the blur value as needed */
   border-radius: 5px; /* Add some rounded corners for a nice effect */
   padding: 16px; /* Adjust padding as needed */
+  border-bottom: 1px solid #000;
+}
+.common-header .flex{
+  justify-content: flex-end;
+}
+
+.common-footer{
+  background-color: white;
+  border-top: 1px solid #ddd;
 }
