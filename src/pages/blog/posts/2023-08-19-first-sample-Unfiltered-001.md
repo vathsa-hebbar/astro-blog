@@ -1,8 +1,8 @@
 ---
-title: 'first-sample-unfiltered-001'
+title: 'first-sample-Unfiltered-001'
 description: 'Chatting with Doguhan Uluca'
 published: true
-slug: 2023-08-19-first-sample-unfiltered-001
+slug: 2023-08-19-first-sample-Unfiltered-001
 publishedDate: '2023-08-21 02:00 PM CST'
 layout: ../../../layouts/BlogPostLayout.astro
 ---
