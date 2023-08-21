@@ -2,6 +2,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import "../styles/global.css";
+import { Analytics } from '@vercel/analytics/react';
 ---
 
 <html lang="en">
@@ -32,6 +33,7 @@ import "../styles/global.css";
 
   <body>
     <Header />
+    <Analytics mode={'production'} />;
       <main class="flex flex-grow justify-center min-h-screen p-4">
         <slot/>
       </main>

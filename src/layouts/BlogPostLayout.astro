@@ -4,6 +4,7 @@ import Footer from '../components/Footer.astro';
 import "../styles/global.css";
 import "../themes/prism-atom-dark.css";
 import type { CollectionEntry } from 'astro:content';
+import { Analytics } from '@vercel/analytics/react';
 type Props = CollectionEntry<'blog'>['data'];
 const { content } = Astro.props;
 const parsedPublishedDate = new Date(content.publishedDate);
@@ -44,6 +45,7 @@ const formattedDate = parsedPublishedDate.toLocaleDateString('en-US', {
   <body>
     <main>
       <Header />
+      <Analytics mode={'production'} />;
 
       <div class="flex flex-grow justify-center min-h-screen">
         <article class="w-screen max-w-4xl p-8">
