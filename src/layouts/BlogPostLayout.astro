@@ -4,7 +4,7 @@ import Footer from '../components/Footer.astro';
 import "../styles/global.css";
 import "../themes/prism-atom-dark.css";
 import type { CollectionEntry } from 'astro:content';
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/astro';
 type Props = CollectionEntry<'blog'>['data'];
 const { content } = Astro.props;
 const parsedPublishedDate = new Date(content.publishedDate);
