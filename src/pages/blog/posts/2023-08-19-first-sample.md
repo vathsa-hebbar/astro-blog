@@ -18,7 +18,7 @@ TL;DR - [GitHub Repo](https://github.com/vathsa-hebbar/astro-blog) for my blog r
 
 <div class="flex justify-center">
   <a href="https://astro.build" title="Astro logo" target="_blank">
-    <img src="/assets/posts/astro-logo.jpg" title="Astro logo" />
+    <img src="/assets/astro-logo.jpg" title="Astro logo" />
   </a>
 </div>
 
