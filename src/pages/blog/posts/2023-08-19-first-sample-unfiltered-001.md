@@ -1,8 +1,8 @@
 ---
-title: 'Angular Unfiltered Episode 020: Quick Chat w/Doguhan Uluca'
+title: 'first-sample-unfiltered-020'
 description: 'Chatting with Doguhan Uluca'
 published: true
-slug: 2020-10-23-angular-unfiltered-020
+slug: 2023-08-19-first-sample-unfiltered-020
 publishedDate: '2020-10-23 02:00 PM CST'
 layout: ../../../layouts/BlogPostLayout.astro
 ---
