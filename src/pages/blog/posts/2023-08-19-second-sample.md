@@ -1,11 +1,11 @@
 ---
-title: 'first-sample blog page using astro js'
+title: '2023-08-19-second-sample'
 description: "Building your own blogging platform is no small feat. From picking the stack you want to use, along with CSS solutions, to how you're going to organize your content are all the decisions that you have to make."
 published: true
-slug: 2023-08-19-first-sample
+slug: 2023-08-19-second-sample
 publishedDate: '2021-10-12T14:00:00Z'
 authour: Example
-authImg: /favicon.svg
+authImg: /assets/astro-logo.jpg
 catagory: Article
 layout: ../../../layouts/BlogPostLayout.astro
 ---
