@@ -33,7 +33,7 @@ article > h2 {
   position: sticky;
   top: 0;
   z-index: auto;
-  background-color: #7e149bcc; /* Semi-transparent white */
+  background-color: #14509b8c; /* Semi-transparent white */
   backdrop-filter: blur(4px); /* Adjust the blur value as needed */
   padding: 16px; /* Adjust padding as needed */
 }
@@ -42,7 +42,8 @@ article > h2 {
 }
 
 .blog-log{
-  margin-bottom: -47px;
+  margin-bottom: -45px;
+  margin-top: -20px;
 }
 
 .common-footer{
