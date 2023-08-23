@@ -1,6 +1,6 @@
 ---
 title: 'Chandrayaan-3 vs. Luna-25: A Comparative Exploration of Lunar Missions'
-description: 'Lunar exploration has entered a new era of advancements and collaboration, with countries across the globe launching missions to uncover the mysteries of Earth's closest celestial neighbor. India's Chandrayaan-3 and Russia's Luna-25 are two prominent players in this dynamic field.'
+description: "Lunar exploration has entered a new era of advancements and collaboration, with countries across the globe launching missions to uncover the mysteries of Earth's closest celestial neighbor. India's Chandrayaan-3 and Russia's Luna-25 are two prominent players in this dynamic field."
 published: true
 slug: 2023-08-23-Chandrayaan-3-vs-Luna-25-A-Comparative-Exploration-of-Lunar-Missions
 publishedDate: '2023-08-23T09:00:00Z'
