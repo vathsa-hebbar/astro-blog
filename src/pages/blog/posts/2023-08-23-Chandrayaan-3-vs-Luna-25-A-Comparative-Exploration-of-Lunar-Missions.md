@@ -32,21 +32,21 @@ Chandrayaan-3, a continuation of India's Chandrayaan program, signifies the nati
 
 ### Key Features of Chandrayaan-3:
 
-- **Lunar Surface Study**: Luna-25 will analyze the moon's soil composition, look for water ice, and study the properties of the regolith in its designated landing site.
+* **Lunar Surface Study**: Luna-25 will analyze the moon's soil composition, look for water ice, and study the properties of the regolith in its designated landing site.
 
-- **International Collaboration**: While predominantly a Russian mission, Luna-25 has benefitted from international contributions and collaboration, reflecting a global approach to lunar exploration.
++ **International Collaboration**: While predominantly a Russian mission, Luna-25 has benefitted from international contributions and collaboration, reflecting a global approach to lunar exploration.
 
 <br/>
 
 ### Comparative Analysis
 
-- **Objectives**: Both Chandrayaan-3 and Luna-25 share the objective of studying the moon's south pole region and conducting scientific research. They aim to analyze the presence of water ice, minerals, and other valuable resources to unravel the moon's history and potential for future missions.
+* **Objectives**: Both Chandrayaan-3 and Luna-25 share the objective of studying the moon's south pole region and conducting scientific research. They aim to analyze the presence of water ice, minerals, and other valuable resources to unravel the moon's history and potential for future missions.
 
 - **Technological Advancements**: Chandrayaan-3's focus on advancing indigenous technology in navigation and autonomous systems complements Luna-25's intent to test new technologies for soft landing and surface operations.
 
-- **Global Collaboration**: While both missions emphasize international collaboration, Luna-25's participation from multiple countries showcases a wider global alliance, potentially paving the way for more inclusive lunar exploration endeavors.
+* **Global Collaboration**: While both missions emphasize international collaboration, Luna-25's participation from multiple countries showcases a wider global alliance, potentially paving the way for more inclusive lunar exploration endeavors.
 
-- **Scientific Exploration**: Chandrayaan-3's specific focus on studying water molecules and minerals complements Luna-25's broader scientific goals, including analyzing regolith properties and moon's environment.
++ **Scientific Exploration**: Chandrayaan-3's specific focus on studying water molecules and minerals complements Luna-25's broader scientific goals, including analyzing regolith properties and moon's environment.
 
 <br/>
 
@@ -58,6 +58,6 @@ Chandrayaan-3, a continuation of India's Chandrayaan program, signifies the nati
 
 <br/>
 
-### Conclusion
+## Conclusion:
 
 Chandrayaan-3 and Luna-25 exemplify the ongoing surge in lunar exploration, where nations collaborate and compete to uncover the moon's enigmatic secrets. As India and Russia prepare to launch their respective missions, the scientific community eagerly awaits the discoveries that will enrich our understanding of the moon's history, geology, and potential as a resource for future space endeavors. These missions, driven by innovative technology and collaborative spirit, mark significant milestones in the ongoing human journey to unlock the mysteries of the cosmos.
