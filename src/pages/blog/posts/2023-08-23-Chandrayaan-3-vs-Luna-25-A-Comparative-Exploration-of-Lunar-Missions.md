@@ -26,11 +26,13 @@ Lunar exploration has entered a new era of advancements and collaboration, with 
 
 ## Chandrayaan-3: India's Lunar Pursuit
 
+
 Chandrayaan-3, a continuation of India's Chandrayaan program, signifies the nation's dedication to expanding its technological and scientific capabilities in space exploration. The primary objectives of Chandrayaan-3 include landing a rover on the moon's surface, conducting detailed scientific research, and advancing indigenous space technology. Chandrayaan-3's focus on the south pole region aims to unravel secrets about lunar water ice and minerals, shedding light on the moon's geological evolution.
 
 <br/>
 
 ### Key Features of Chandrayaan-3:
+
 
 * **Lunar Surface Study**: Luna-25 will analyze the moon's soil composition, look for water ice, and study the properties of the regolith in its designated landing site.
 
@@ -38,7 +40,8 @@ Chandrayaan-3, a continuation of India's Chandrayaan program, signifies the nati
 
 <br/>
 
-### Comparative Analysis
+### Comparative Analysis:
+
 
 * **Objectives**: Both Chandrayaan-3 and Luna-25 share the objective of studying the moon's south pole region and conducting scientific research. They aim to analyze the presence of water ice, minerals, and other valuable resources to unravel the moon's history and potential for future missions.
 
