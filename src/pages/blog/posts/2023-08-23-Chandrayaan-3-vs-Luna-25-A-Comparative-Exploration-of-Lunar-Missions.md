@@ -31,7 +31,7 @@ Chandrayaan-3, a continuation of India's Chandrayaan program, signifies the nati
 
 <br/>
 
-### Key Features of Chandrayaan-3:
+## Key Features of Chandrayaan-3:
 
 
 * **Lunar Surface Study**: Luna-25 will analyze the moon's soil composition, look for water ice, and study the properties of the regolith in its designated landing site.
@@ -40,7 +40,7 @@ Chandrayaan-3, a continuation of India's Chandrayaan program, signifies the nati
 
 <br/>
 
-### Comparative Analysis:
+## Comparative Analysis:
 
 
 * **Objectives**: Both Chandrayaan-3 and Luna-25 share the objective of studying the moon's south pole region and conducting scientific research. They aim to analyze the presence of water ice, minerals, and other valuable resources to unravel the moon's history and potential for future missions.
