@@ -1,3 +1,8 @@
 #allow all crawlers
 User-agent: *
+
+User-agent: Adsbot-Google
+User-agent: AdsBot-Google-Mobile
 Allow: /
+
+Sitemap: https://taleviewer.dev/sitemap.xml
