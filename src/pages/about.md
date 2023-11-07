@@ -5,7 +5,7 @@ published: true
 slug: about
 layout: ../layouts/BaseLayout.astro
 ---
-
+<!-- about us page -->
 <div class="w-1/2">
 
 <div class="text-2xl py-4">
