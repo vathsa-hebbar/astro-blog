@@ -1,0 +1,35 @@
+---
+// Component Imports
+import Layout from '../../layouts/Page.astro'
+import BlogPostPreview from '../../components/BlogPostPreview.astro';
+
+import { getAllPosts } from '../../lib/api.js';
+import Container from '../../components/Container.astro';
+
+
+const seo = {
+  title: 'Taleviewer',
+  description: "TaleViewer is not merely a website, it's an expansive portal to both boundless imagination and a dynamic wellspring of real-time information and learning insights. We stand as your haven for storytellers, where each tale discovers its voice, every narrative transforms into an enthralling adventure, and knowledge thrives as a living, breathing entity."
+}
+
+const allPostData = await getAllPosts();
+
+---
+
+<Layout seo={seo}>
+  <Container>
+    <section class="bg-white">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+              <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900">Our Blog</h2>
+              <p class="font-light text-gray-500 sm:text-xl">Where stories breathe, dreams ignite, and knowledge comes alive in every word</p>
+          </div>
+    <article class="blog-page-content__article">
+      <section class="postlist">
+        <div class="grid gap-8 lg:grid-cols-2">
+        {allPostData.map((post) =>
+        <BlogPostPreview post={post} />)}
+      </section>
+    </article>
+  </Container>
+</Layout>

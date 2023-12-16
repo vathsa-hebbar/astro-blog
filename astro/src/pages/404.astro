@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Page.astro';
+import Container from '../components/Container.astro';
+
+const seo = {
+  title: 'Uh Oh! Page Not Found',
+  description: 'The above error occurred while the Web server was processing your request. Thank you.',
+}
+// once the contact us implimented then add this line "Please contact us if you think this is a server error"
+---
+
+<Layout seo={seo} >
+      <div class="text-2xl py-4"> 
+      </div>
+      <section class="bg-gray-900">
+              <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+                  <div class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 rounded-full bg-gray-800">
+                  </div><h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5l text-red-400">⚠ 404 </h1>
+                  <h2 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5l text-white">Uh Oh! Page Not Found</h2>
+                  <p class="bio text-white">
+                    The above error occurred while the Web server was processing your request. Thank you.
+                  </p>
+                  <u><a class="text-gray-900 text-white" href="/blog">Return Home</a></u>
+              </div>
+            </section>
+      </div>
+</Layout>
+
