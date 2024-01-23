@@ -1,7 +1,7 @@
 export default {
     title: `Taleviewer`,
     description: `This is an example blog made with Astro.`,
-    url: `https://taleviewer.dev`, // No trailing slash!
+    url: `http://taleviewer.dev`, // No trailing slash!
     // JSON LD
     name: `Shrivathsa Kabbinale`,
     // Facebook URL
