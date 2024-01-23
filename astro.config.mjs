@@ -4,7 +4,6 @@ import tailwind from '@astrojs/tailwind';
 
 import sanity from 'astro-sanity';
 
-// https://astro.build/config
 export default defineConfig({
   site: 'https://tailviewer.dev',
   integrations: [
