@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 import sanity from 'astro-sanity';
 
 export default defineConfig({
-  site: 'https://tailviewer.dev',
+  site: 'https://taleviewer.dev',
   integrations: [
     tailwind(),
     sitemap(),
